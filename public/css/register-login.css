@@ -1,0 +1,85 @@
+form {
+  width: 80vw;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+p {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.box {
+  border-radius: 3px;
+  border: #ebebeb;
+  width: 80%;
+  height: 5vh;
+}
+
+.box::placeholder {
+  color: black;
+  font-style: bold;
+  padding: 10px;
+}
+
+input {
+  width: 50%;
+  outline: none;
+}
+
+input[type="radio"] {
+  width: 10%;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  margin-left: 7%;
+  margin-bottom: 1%;
+}
+
+.check-radio {
+  text-align: center;
+}
+
+label {
+  font-size: 18px;
+  display: block;
+  text-align: left;
+  margin-bottom: 1em;
+  padding-left: 9%;
+}
+
+.buttons {
+  padding-top: 10px;
+}
+
+.submit {
+  background-color: #1259c3;
+  color: #ebebeb;
+  border-radius: 3px;
+  border: #ebebeb;
+  width: 80%;
+  height: 5vh;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: #0b67f2;
+}
+
+.reset {
+  background-color: #777;
+  color: #ebebeb;
+  border-radius: 3px;
+  border: #ebebeb;
+  width: 80%;
+  height: 5vh;
+  cursor: pointer;
+}
+.reset:hover {
+  background-color: #666;
+}
+
+span {
+  display: none;
+}

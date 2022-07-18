@@ -1,0 +1,85 @@
+@import url(search-bar.css);
+
+header {
+  background-color: #eac926;
+  color: #03264c;
+  padding: 1em 3em 1em 3em;
+}
+
+.top-bar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 50%;
+  max-width: 200px;
+}
+
+.search-bar {
+  width: 50%;
+  margin: auto;
+}
+
+.line-header {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.burger-menu {
+  background-color: #03264c;
+  color: #ffffff;
+  display: block;
+  max-width: 35px;
+  padding: 8px 0;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+}
+
+nav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 35%;
+    max-width: 200px;
+  }
+
+  .search-bar {
+    width: 32%;
+    margin: auto;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    padding: 1em 0 0 0;
+  }
+
+  a {
+    color: #03264c;
+    text-decoration: none;
+    padding: 2%;
+  }
+
+  .first-nav {
+    display: inline;
+    width: 50%;
+  }
+
+  .second-nav {
+    display: inline;
+    width: 50%;
+    text-align: right;
+  }
+}

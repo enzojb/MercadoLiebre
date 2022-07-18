@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Login Mercado Liebre</title>
+   <link rel="stylesheet" href="/css/styles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <header>
+      <div class="top-bar">
+         <img class="logo" src="/assets/images/logo-mercado-liebre.svg" alt="logotipo">
+
+         <div class="search-bar">
+            <div class="container">
+               <div class="search_wrap search_wrap_1">
+                  <div class="search_box">
+                     <input type="text" class="input" placeholder="Buscar productos, marcas y más">
+                     <div class="btn btn_common">
+                        <i class="fas fa-search"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <h2 class="line-header">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+            Comprá en cuotas y sin tarjetas de crédito
+         </h2>
+      </div>
+
+      <a href="#" class="burger-menu">
+         <i class="fas fa-bars"></i>
+      </a>
+
+      <nav>
+         <div class="first-nav">
+            <a href="#">Ofertas</a>
+            <a href="#">Tiendas oficiales</a>
+            <a href="#">Vender</a>
+            <a href="#">Ayuda</a>
+         </div>
+
+         <div class="second-nav">
+            <a href="http://localhost:3030/register">Creá tu cuenta</a>
+            <i class="fa-solid fa-id-card"></i>
+            <a href="http://localhost:3030/login">Ingresá</a>
+            <i class="fa-solid fa-right-to-bracket"></i>
+            <a href="#">Mis compras</a>
+            <i class="fa-solid fa-basket-shopping"></i>
+         </div>
+      </nav>
+   </header>
+
+   <form action="/login" method="POST">
+      <p>
+         <input class="box" type="text" name="usuario" id="usuario" placeholder="Nombre de usuari@">
+         <span class="feedback">Este campo es obligatorio.</span>
+      </p>
+      <p>
+         <input class="box" type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
+         <span class="feedback">Este campo es obligatorio.</span>
+      </p>
+      <p>
+         <button class="submit" type="submit">Enviar</button>
+      </p>
+   </form>
+
+   <footer>
+      <h6>Copyright © 1999-2020 MercadoLiebre S.R.L.</h6>
+   </footer>
+</body>
+
+</html>
